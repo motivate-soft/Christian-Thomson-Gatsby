@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'CondensedRegular';
+    src: url(./RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'CondensedBold';
+    src: url(./RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SlabRegular';
+    src: url(./RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SlabBold';
+    src: url(./RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MenloRegular';
+    src: url(./Menlo-Regular.woff);
+}
+
+@font-face {
+    font-family: 'MenloBold';
+    src: url(./Menlo-Bold.ttf);
+}

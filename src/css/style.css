@@ -1,0 +1,149 @@
+/*! purgecss start ignore */
+
+/* @import "../fonts/fonts.css";  */
+
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.form-input{
+    font-family: "CondensedBold";
+    font-size: 14px;
+    appearance: none;
+    color: #2B2B2B;
+    padding: 14px 17px;
+    width: 100%;
+    border-width: 1px;
+    border-color: #BABABA;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.form-input::placeholder{
+    @apply text-grey
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.background{
+    animation: fadeIn 1s;
+}
+
+.fade-in{
+    animation: fadeIn1 2s;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* Christian Thomson */
+.font-132{
+    font-size: 132px;
+}
+
+.font-34{
+    font-size: 34px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+
+.font-28{
+    font-size: 28px;
+}
+
+.font-26{
+    font-size: 26px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.font-22{
+    font-size: 22px;
+}
+
+.font-19{
+    font-size: 19px;
+}
+
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-17{
+    font-size: 17px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-10{
+    font-size: 10px;
+}
+
+.nav-item{
+    @apply font-con-regular uppercase;
+    font-size: 14px;
+}
+
+.bg-gradient-primary{
+    background: linear-gradient(180deg, #264386 0%, #0C2150 100%);
+}
+
+.bg-gradient-second{
+    background: linear-gradient(180deg, #D74663 0%, #0C2150 100%);
+}
+
+.check-item::before{
+    content: url(../images/ic_check.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 24px;
+}
+
+.container{
+    @apply mx-auto;
+    max-width: 1366px;
+}
