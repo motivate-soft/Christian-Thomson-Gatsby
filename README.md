@@ -1,4 +1,5 @@
 # Christian Thomson
+![alt text](https://github.com/robert-upwork/Christian-Thomson/blob/master/src/images/Screenshot_2020-10-14%20Home.png?raw=true)
 (https://christianthomson.co/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cf1000b7-d0d1-4bb0-a140-f23014a23a5f/deploy-status)](https://app.netlify.com/sites/Christian-Thomson/deploys)
@@ -16,6 +17,6 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 * [Gatsby CLI](https://www.gatsbyjs.org/docs/)
 
 ### Dependencies
-Can be found here: https://github.com/GatsboyWeb/Christian-Thomson/network/dependencies
+Can be found here: https://github.com/robert-upwork/Christian-Thomson/network/dependencies
 
 <br><br>
